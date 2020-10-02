@@ -62,6 +62,7 @@ class Form extends React.Component {
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
         <form name="Contact" action={action} onSubmit={this.handleSubmit} method="POST" data-netlify="true">
+        <input type="hidden" name="Contact" value="contact" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
