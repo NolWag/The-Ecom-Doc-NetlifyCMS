@@ -7,7 +7,7 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'The Ecom Doc - Contact',
+    name: 'Contact',
     subject: 'The Ecom Doc - Contact', // optional subject of the notification email
     action: '/contact/',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
@@ -61,12 +61,14 @@ class Form extends React.Component {
         <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
-        <form
+        <form    
           className="Form"
           name={name}
+          method="POST"
           action={action}
           onSubmit={this.handleSubmit}
           data-netlify="true"
+          data-netlify-honeypot="bot-field"
           netlify-recaptcha="true"
         >
           {this.state.alert && (
