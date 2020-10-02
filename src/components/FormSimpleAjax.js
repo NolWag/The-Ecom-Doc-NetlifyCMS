@@ -61,15 +61,24 @@ class Form extends React.Component {
         <Helmet>
           <script src="https://www.google.com/recaptcha/api.js" />
         </Helmet>
-        <form    
+        <form name="Contact" action={action} onSubmit={this.handleSubmit} method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit" disabled={this.state.disabled}>Send</button>
+  </p>
+  </form>
+        {/* <form    
           className="Form"
           name={name}
-          method="POST"
           action={action}
           onSubmit={this.handleSubmit}
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -172,7 +181,7 @@ class Form extends React.Component {
             value="Enquire"
             disabled={this.state.disabled}
           />
-        </form>
+        </form> */}
       </Fragment>
     )
   }
