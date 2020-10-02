@@ -7,7 +7,10 @@ subtitle: Shoot me a message today for a free consultation!
 address: Kalamazoo, Michigan
 phone: 850 - 417 - 4055
 email: Nolan@TheEcomDoc.com
-locations: []
+locations:
+  - mapLink: ""
+    lat: ""
+    lng: ""
 meta:
   description: This is a meta description.
   title: Contact Page
