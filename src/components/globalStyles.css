@@ -1,12 +1,11 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #ff3d3d;
   --secondary: #000;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'Rubik', sans-serif;
   --borderRadius: 3px;
 }
 
@@ -34,7 +33,7 @@ html {
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: var(--font-primary) !important;
   min-height: 100%;
   position: relative;
   background: white;

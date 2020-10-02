@@ -7,6 +7,8 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
+
+
 export const SinglePostTemplate = ({
   title,
   date,
@@ -87,9 +89,11 @@ export const SinglePostTemplate = ({
   </main>
 )
 
+
 // Export Default SinglePost for front-end
 const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
+
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -107,6 +111,8 @@ const SinglePost = ({ data: { post, allPosts } }) => {
 }
 
 export default SinglePost
+
+
 
 export const pageQuery = graphql`
   ## Query for SinglePost data

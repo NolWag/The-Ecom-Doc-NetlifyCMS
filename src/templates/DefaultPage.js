@@ -14,12 +14,6 @@ export const DefaultPageTemplate = ({
   body
 }) => (
   <main className="DefaultPage">
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
-
     <section className="section">
       <div className="container">
         <Content source={body} />

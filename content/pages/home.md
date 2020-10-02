@@ -1,30 +1,65 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
+title: The Ecom Doc
 featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+subtitle: 'Shopify Development, Optimization & Maintenance Services'
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: Shopify Development & Maintenance Services
+section2: |-
+  ## You can use videos, images and text.
+
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
+  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
+videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+videoTitle: Also background videos, with poster image & title overlay.
+accordion:
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Taciti lorem
+gallery:
+  - alt: yellow rope image
+    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
+    title: Yellow Rope
+  - alt: umbrellas
+    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
+    title: a bunch of umbrellas
+  - alt: yellow ice cream
+    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
+    title: Yellow Ice Cream
+
 ---
+# Who I Am
 
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+I am a Web Developer with 10 years experience. I specialize in ecommerce, more specifically Shopify.
 
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
 
-# Features
+# What I Do
 
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-- Dynamic menus and forms
-- **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-- Fully responsive layout for mobile and widescreen browsing
-- Blog searching and paging functionality
-- Seamless image and content sliders
+I manage and maintain several Shopify stores at any given time, small companies, large corporations, government organizations & more. I offer development & design services, consulting & migrations from other platforms to Shopify. 
 
-## Get started
+# Custom Projects
 
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
+I love building custom Shopify solutions or ecommerce solutions in general.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+Not sure if it's possible? I offer free consultations and I'd love to talk about your idea!
+
+gallery:
+  - alt: yellow rope image
+    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
+    title: Yellow Rope
+  - alt: umbrellas
+    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
+    title: a bunch of umbrellas
+  - alt: yellow ice cream
+    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
+    title: Yellow Ice Cream

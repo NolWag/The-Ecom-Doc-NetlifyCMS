@@ -5,9 +5,12 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
+import Carousel from '../components/Carousel'
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
+
     <PageHeader
       large
       title={title}

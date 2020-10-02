@@ -1,4 +1,6 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
+import ReactDOM from 'react-dom'
+
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
@@ -9,8 +11,25 @@ import GithubCorner from './GithubCorner'
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
 
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
+
+
 export default ({ children, meta, title }) => {
+
+  useEffect(() => {
+      async function loader() {
+          try {
+              const deckdeckgoHighlightCodeLoader = require("@deckdeckgo/highlight-code/dist/loader")
+              await deckdeckgoHighlightCodeLoader.defineCustomElements(window);
+          } catch (err) {
+              console.error(err);
+          }
+      }
+      loader();
+  }, [])
+
   return (
+    
     <StaticQuery
       query={graphql`
         query IndexLayoutQuery {
@@ -50,7 +69,10 @@ export default ({ children, meta, title }) => {
               : false
           }
 
+          
+
         return (
+          
           <Fragment>
             <Helmet
               defaultTitle={siteTitle}
@@ -78,7 +100,6 @@ export default ({ children, meta, title }) => {
             <Nav subNav={subNav} />
 
             <Fragment>{children}</Fragment>
-
             <Footer />
           </Fragment>
         )
