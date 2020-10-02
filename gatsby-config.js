@@ -3,7 +3,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'yellowcake',
-    siteUrl: 'https://theecomdoc.com'
+    siteUrl: 'https://priceless-perlman-0e178a.netlify.app/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'The Ecom Doc',
+        short_name: 'theecomdoc',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
