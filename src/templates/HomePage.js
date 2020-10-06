@@ -21,8 +21,8 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
     <section className="section">
       <div className="container">
         <Content source={body} />
+        <Carousel />
       </div>
-      <Carousel />
     </section>
   </main>
 )
