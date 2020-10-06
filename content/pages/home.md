@@ -12,11 +12,11 @@ meta:
 
 I build several Shopify stores each year, completely custom, starting with the design. 
 
-# Shopify Theme Changes & Edits
+# Theme Changes & Edits
 
 My most popular service by far, changes and edits to your existing Shopify theme in all shapes and sizes. All I need is a short description of the desired changes to get started!
 
-# Shopify Page Speed Optimizations
+# Page Speed Optimizations
 
 Is your store loading slow? There are many things that can make your store load slowly: apps, improper coding, image sizes, third party software, etc.  I can also suggest improvements to avoid apps or solutions that do not require a monthly fee - like many apps.
 
