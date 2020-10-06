@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ""
-title: The Ecom Doc
+title: Shopify Solutions
 featuredImage: https://ucarecdn.com/fa3522d4-fd66-41d9-a22c-5b27ea6e86c1/
 subtitle: Shopify Development, Optimization & Maintenance
 meta:
