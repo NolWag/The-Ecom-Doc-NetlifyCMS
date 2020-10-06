@@ -1,9 +1,9 @@
 ---
 template: HomePage
 slug: ""
-title: Yellowcake
+title: The Ecom Doc
 featuredImage: https://ucarecdn.com/fa3522d4-fd66-41d9-a22c-5b27ea6e86c1/
-subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
+subtitle: Shopify Development, Optimization & Maintenance Services
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
