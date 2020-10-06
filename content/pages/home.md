@@ -10,6 +10,8 @@ meta:
 ---
 # Shopify Design & Development
 
+I build several Shopify stores each year, completely custom, starting with the design. 
+
 
 
 # Shopify Theme Changes & Edits
