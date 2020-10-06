@@ -42,25 +42,29 @@ const responsive = {
   }
 `
 
+  const CarouselContainer = styled('div')`
+    padding: 8rem 0;
+  `
+
 const CarouselHome = () => {
 
   const data = useStaticQuery(graphql`
   query {
-      imageOne: file(relativePath: { eq: "Above-Media-min.jpg" }) {
+      imageOne: file(relativePath: { eq: "Wheel-Store-min.jpg" }) {
           sharp: childImageSharp {
               fluid(quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
               }
           }
       }
-      imageTwo: file(relativePath: { eq: "Wheel-Store-min.jpg" }) {
+      imageTwo: file(relativePath: { eq: "Above-Media-min.jpg" }) {
           sharp: childImageSharp {
               fluid(quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
               }
           }
       }
-      imageThree: file(relativePath: { eq: "Sutherland-min.jpg" }) {
+      imageThree: file(relativePath: { eq: "Fit-Bit-min.jpg" }) {
           sharp: childImageSharp {
               fluid(quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
@@ -74,7 +78,7 @@ const CarouselHome = () => {
               }
           }
       }
-      imageFive: file(relativePath: { eq: "Fit-Bit-min.jpg" }) {
+      imageFive: file(relativePath: { eq: "Sutherland-min.jpg" }) {
           sharp: childImageSharp {
               fluid(quality: 100) {
                   ...GatsbyImageSharpFluid_withWebp
@@ -93,20 +97,16 @@ const CarouselHome = () => {
 
 
     return (
-        <div>
+        <CarouselContainer>
         <Carousel responsive={responsive} infinite={true}>
-          {/* <Item fluid={data.imageOne.sharp.fluid} />
           <Item fluid={data.imageOne.sharp.fluid} />
-          <Item fluid={data.imageOne.sharp.fluid} />
-          <Item fluid={data.imageOne.sharp.fluid} />
-          <Item fluid={data.imageOne.sharp.fluid} />
-          <Item fluid={data.imageOne.sharp.fluid} /> */}
-           <div>Item 1</div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
+          <Item fluid={data.imageTwo.sharp.fluid} />
+          <Item fluid={data.imageThree.sharp.fluid} />
+          <Item fluid={data.imageFour.sharp.fluid} />
+          <Item fluid={data.imageFive.sharp.fluid} />
+          <Item fluid={data.imageSix.sharp.fluid} />
         </Carousel>
-        </div>
+        </CarouselContainer>
     )
 }
 

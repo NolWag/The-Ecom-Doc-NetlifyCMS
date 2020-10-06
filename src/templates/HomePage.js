@@ -10,7 +10,7 @@ import Carousel from '../components/Carousel'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
-
+ 
     <PageHeader
       large
       title={title}
@@ -22,6 +22,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       <div className="container">
         <Content source={body} />
       </div>
+      <Carousel />
     </section>
   </main>
 )
