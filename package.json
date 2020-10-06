@@ -5,7 +5,7 @@
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thriveweb/yellowcake"
+    "url": "https://github.com/nolwag"
   },
   "dependencies": {
     "@deckdeckgo/highlight-code": "^2.1.0",
