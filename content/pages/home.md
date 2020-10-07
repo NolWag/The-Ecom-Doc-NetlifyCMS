@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Shopify Solutions
-featuredImage: https://ucarecdn.com/fa3522d4-fd66-41d9-a22c-5b27ea6e86c1/
+featuredImage: https://ucarecdn.com/c7a6ad87-f12e-4486-ab59-e851c028f21b/
 subtitle: Shopify Development, Optimization & Maintenance
 meta:
   description: This is a meta description.
