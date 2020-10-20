@@ -15,10 +15,10 @@ This product also requires "Add-ons", other products that can be added to the ma
 
 ### **Before -**
 
-![Screenshot of Shopify product page before revisions.](https://ucarecdn.com/534f1571-5fda-428a-a44c-3708f1c55a02/)
+![Screenshot of Shopify product page before revisions.](https://ucarecdn.com/534f1571-5fda-428a-a44c-3708f1c55a02/-/crop/608x873/1065,0/-/preview/)
 
 ### **After -**
 
-![Screenshot of Shopify product page after revisions.](https://ucarecdn.com/3f250a3f-e89b-4f80-b9de-abdcea0f3f81/)
+![Screenshot of Shopify product page after revisions.](https://ucarecdn.com/3f250a3f-e89b-4f80-b9de-abdcea0f3f81/-/crop/546x830/1076,0/-/preview/)
 
 The price calculator calculates two different prices. The total price and the estimated monthly price the product would cost if Affirm financing service is used.
