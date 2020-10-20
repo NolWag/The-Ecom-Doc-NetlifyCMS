@@ -3,6 +3,7 @@ template: SinglePost
 title: Shopify Product Page Redesign & Price Calculator
 status: Published
 date: 2020-10-20
+featuredImage: https://ucarecdn.com/5f6ea762-7289-46cf-bc0d-f69091b81258/-/crop/555x829/1067,1/-/preview/
 excerpt: This is a redesign of the product page and an added price calculator /
   estimator for the their Affirm financing service.
 ---
