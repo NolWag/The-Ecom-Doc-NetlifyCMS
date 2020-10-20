@@ -26,13 +26,10 @@ Place this code where you want your new variants to appear.
 {% if product.available and product.variants.size > 1 %}
 {% render 'swatch' for product.options as swatch %}
 {% endif %}
-
 ```
 
-If you're not sure where to put this code, look for a `<select>` with a `name="id", this is `\
+If you're not sure where to put this code, look for a `<select>` with a `name="id", this is`\
 where your current, drop down variants are.
-
-
 
 **3 - Locate selectCallback Function**
 
@@ -52,16 +49,13 @@ if (variant) {
   }
 }
 // END SWATCHES
-
 ```
-
-
 
 **4 - Add another chuck of code**
 
 Locate your "theme.liquid" file in your "layouts" folder.
 
-Add this code before the closing `</body> `tag.
+Add this code before the closing `</body>`tag.
 
 ```
 <script>
@@ -78,7 +72,6 @@ jQuery(function() {
   });
 });
 </script>
-
 ```
 
 **5 - Add the CSS**
@@ -94,7 +87,5 @@ You'll want to add an image named "soldout.jpg" to your "Assets" folder. This wi
 You only need to do this if you are using color variants.
 
 Add the swatches to your "Assets" folder using hyphenated naming convention "black.jpg" or "blue-gray.jpg".
-
-
 
 This is condensed version of this post on the Shopify forum - [Post](https://community.shopify.com/c/Shopify-Design/Product-pages-Add-color-swatches-to-products/m-p/616427)
