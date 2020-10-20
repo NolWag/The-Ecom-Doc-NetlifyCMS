@@ -1,7 +1,7 @@
 ---
 template: SinglePost
 title: Add Shopify Color Swatches to Variants
-status: Draft
+status: Published
 date: 2020-10-14
 featuredImage: https://ucarecdn.com/42904d8f-5947-4609-9906-35aaf568354a/-/crop/1335x726/0,0/-/preview/
 excerpt: Add custom styled color swatches to your Shopify variants.
