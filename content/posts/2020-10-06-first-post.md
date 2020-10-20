@@ -8,4 +8,4 @@ categories:
   - category: News
   - category: Updates
 ---
-Here is the content!
+This is the very beginning of this blog. Thank you for reading!
