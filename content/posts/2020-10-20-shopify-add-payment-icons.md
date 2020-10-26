@@ -3,6 +3,7 @@ template: SinglePost
 title: Shopify Add Payment Icons
 status: Draft
 date: 2020-10-20
+featuredImage: https://ucarecdn.com/98d05952-e425-41c3-9520-f5dbe2c43abf/
 excerpt: "Add payment and credit card icons anywhere on your store with these
   code blocks. "
 meta:
