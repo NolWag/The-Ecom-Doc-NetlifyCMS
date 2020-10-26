@@ -8,6 +8,8 @@ excerpt: Add custom styled color swatches to your Shopify variants.
 meta:
   title: Shopify Color Swatches
 ---
+![Screenshot of Shopify store using modified variants](https://ucarecdn.com/3d673e5d-f2f6-4bab-81c3-a22c309b669d/ "Modified Shopify Variants - Add Shopify Color Swatches to Variants")
+
 **1 - Create New Snippet**
 
 Name this snippet "swatch.liquid"
