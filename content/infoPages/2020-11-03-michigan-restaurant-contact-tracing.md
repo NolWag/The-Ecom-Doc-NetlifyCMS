@@ -1,6 +1,6 @@
 ---
 template: DefaultPage
-slug: Michigan Restaurant Contact Tracing
+slug: michigan-restaurant-contact-tracing
 title: Michigan Restaurant Contact Tracing
 featuredImage: https://ucarecdn.com/9c2187ac-06e3-46de-b61c-660e89cfb4ba/
 meta:
