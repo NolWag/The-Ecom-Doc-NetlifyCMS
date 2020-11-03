@@ -1,0 +1,12 @@
+.PricingTable__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.PricingTable__container {
+    display: flex;
+}
+
+.PricingTable__title {
+    margin: 3rem;
+}

@@ -7,7 +7,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
-
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
 export const SinglePostTemplate = ({
   title,
@@ -94,6 +94,13 @@ export const SinglePostTemplate = ({
 const SinglePost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
 
+  let disqusConfig = {
+    // url: `${config.siteUrl+location.pathname}`,
+    identifier: post.id,
+    title: post.title,
+  }
+
+
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -106,6 +113,10 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
+      <CommentCount config={disqusConfig} placeholder={'...'} />
+      /* Post Contents */
+      <Disqus config={disqusConfig} />
+
     </Layout>
   )
 }

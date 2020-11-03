@@ -10,6 +10,7 @@ import Layout from '../components/Layout'
 import './ContactPage.css'
 
 import FormSpreeForm from '../components/FormSpreeForm'
+import PricingTable from '../components/PricingTable'
 
 // Export Template for use in CMS preview
 export const ContactPageTemplate = ({
@@ -52,6 +53,7 @@ export const ContactPageTemplate = ({
             )}
           </div>
         </div>
+
 
         <div>
           <FormSpreeForm />
