@@ -22,6 +22,4 @@ If you are like many other restaurants you might not be prepared to accommodate 
 2. Guests will be redirected to a form that asks for their name, date and basic contact information. 
 3. This information will be stored in a database and retrievable at any time.
 
-
-
-Send me a message or give me a call and we can get your contact tracing set up! This is a no strings attached offer, you pay nothing for this service.
+Send me a message or give me a call and we can get your contact tracing set up! This is a no strings attached offer, you pay nothing for this service. [Click here to contact me!](/contact)
